@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Post } from '../interfaces';
 import loader from "../assets/loader.gif"
 import { AiFillLike } from "react-icons/ai";
@@ -35,23 +35,23 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({ post, onVideoSelect }) 
                 <div className="flex justify-center items-center mt-4 flex-col gap-4 ">
                     <div className='flex flex-col gap-12 ml-5'>
                         <div>
-                            <button className='flex gap-2 text-white text-blue-600'><AiFillLike /></button>
+                            <button className='flex gap-2 text-blue-600'><AiFillLike /></button>
                             <span className='text-white'>Like</span>
                         </div>
                         <div>
-                            <button className='flex gap-2 text-white text-blue-600'><FaCommentAlt /> </button>
+                            <button className='flex gap-2  text-blue-600'><FaCommentAlt /> </button>
                             <span className='text-white'>Comment</span>
                         </div>
                         <div>
-                            <button className='flex gap-2 text-white text-blue-600'><FaShareFromSquare /> </button>
+                            <button className='flex gap-2 text-blue-600'><FaShareFromSquare /> </button>
                             <span className='text-white'>Share</span>
                         </div>
                         <div>
-                            <button className='flex gap-2 text-white text-blue-600'><MdOutlineSaveAlt /> </button>
+                            <button className='flex gap-2 text-blue-600'><MdOutlineSaveAlt /> </button>
                             <span className='text-white'>Save</span>
                         </div>
                         <div>
-                            <button className='flex gap-2 text-white text-blue-600'><BsThreeDotsVertical /> </button>
+                            <button className='flex gap-2  text-blue-600'><BsThreeDotsVertical /> </button>
                             <span className='text-white'>More</span>
                         </div>
                     </div>
