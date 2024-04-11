@@ -30,71 +30,67 @@ Install react,typescript with npm
 ### Frontend deployed link
 
 ```http
-  https://statuesque-platypus-e40dc1.netlify.app/
+  https://stirring-dieffenbachia-76fc2a.netlify.app/
 ```
 
 ## Features
-### Video Thumbnail Component:
-Displays a video thumbnail with a title, description, and creator's name.
-Allows users to click on the thumbnail to view the video details.
-Shows the creator's profile picture along with their name.
-Provides options to like, comment, share, and save the video.
-Utilizes a gradient background and hover effects for visual appeal.
-Implements a responsive design for various screen sizes.
-Includes a loader GIF for when the thumbnail is loading.
-
-### Video Details Component:
-Displays the selected video's title, description, and creator's name.
-Allows users to like the video and add comments.
-Uses local storage to store and retrieve likes and comments for each video.
-Provides a modal for users to input their name and comment.
-Utilizes colors, borders, and shadows for improved UI aesthetics.
-Implements a responsive design for different screen sizes.
-
-### Navbar Component:
-Displays a navigation bar with a logo and the name of the application.
-Utilizes a fixed position to keep the navbar static while scrolling.
-Uses colors, padding, and shadows for visual appeal.
-
-### Video Player Component:
-Renders a video player for playing the selected video.
-Utilizes the React Player library for video playback.
-Implements a loader GIF while the video is loading.
-Uses colors, borders, and shadows for styling.
-
-### Pagination Component:
-Displays pagination buttons for navigating between pages.
-Allows users to click on page numbers to navigate.
-Utilizes colors, borders, and hover effects for visual feedback.
-Implements a responsive design for different screen sizes.
-
-### Root Component:
-Renders the main application component within a root element.
-Applies a background color to the entire page.
-
-### UI Customization:
-Utilizes Tailwind CSS for styling components.
-Implements custom UI designs using colors, borders, shadows, and gradients.
-Ensures consistency and responsiveness across all components.
+### Video List Pagination: 
+Allows users to navigate through multiple pages of video content.
+### Modal Display: 
+Opens a modal when a video thumbnail is clicked, displaying the selected video's player and details.
+### Modal Close Button:
+Provides a button within the modal to close it.
+### Background Blur: 
+Applies a blurred background overlay when the modal is open to focus attention on the modal content.
+### Video Thumbnail Grid: 
+Displays video thumbnails in a grid layout.
+### Thumbnail Interaction: 
+Users can interact with video thumbnails to select and view the associated video in the modal.
+### Like, Comment, Share Buttons: 
+Offers buttons within the modal to perform actions like liking, commenting, and sharing the video.
+### More Options Button: 
+Includes a button to display additional options for the video.
+### User Information Display: 
+Shows the name and profile picture of the video creator.
+### Responsive Design: 
+Ensures that the layout adapts to different screen sizes for a consistent user experience.
+### Lazy Loading: 
+Fetches video content dynamically to optimize page loading times.
+### Local Storage: 
+Stores the current page number in local storage to maintain pagination state between page refreshes.
+### Scroll Behavior: 
+Enables scrolling within the modal container without affecting the background scroll.
+### Close Modal on Background Click: 
+Allows users to close the modal by clicking outside of it.
+### Customizable Modal Position: 
+Positions the modal 200px from the top of the viewport for improved visibility.
 
 ## Screentshots
-![Screenshot (5624)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/9aa93acf-28d0-4f3f-b6a1-281fe016040f)
-![Screenshot (5623)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/9704ce38-e815-4bf4-9993-826bebe85e78)
-![Screenshot (5619)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/4a0ea11c-859c-42a4-b6a0-2fe28f670453)
-![Screenshot (5617)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/8b9b7e93-e4b2-4622-9567-5e8e4312ae87)
-![Screenshot (5616)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/8ad5a31c-e9aa-4c5c-a406-7c4e178fb50d)
-![Screenshot (5615)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/8257e993-fc60-467c-9755-e982ee67218e)
+![Screenshot (5640)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/d0196ee8-a2c9-40e1-a24e-40e3645b5615)
+![Screenshot (5639)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/f0e8936b-0b1d-458a-80e8-ae2a26be9f61)
+![Screenshot (5638)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/ba3cfecd-40ad-4a9d-a4a1-2531c79c9770)
+![Screenshot (5637)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/0080b6fb-826c-4479-adf2-70e42ac78fb6)
+![Screenshot (5636)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/344636ad-1a16-49a4-9748-5b36f4d77302)
+![Screenshot (5635)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/4c5ea3ab-8b21-404e-b8d8-72aa52d97ea2)
+![Screenshot (5634)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/60a61864-14a3-41e2-bacf-27b80800379f)
+
 
 
 ## Responsiveness
 ### Mobile Screen
-![Screenshot (5628)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/1b0c11cf-e072-49cb-bf29-15f58d338c66)
+![Screenshot (5643)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/de1ae5a1-d802-4711-bc0d-28258a8a5ef1)
+![Screenshot (5642)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/6ce78a0b-c935-436c-8277-55b22736d68e)
+
 
 ### Tablet Screen
-![Screenshot (5629)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/d3f5d040-1935-4238-b074-9ff31c82ee87)
+![Screenshot (5644)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/180d57b4-be45-4142-b122-e2439eb18c81)
+![Screenshot (5641)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/ee479801-b569-443c-865d-e3a0ab354108)
+
 
 ### Desktop Screen
-![Screenshot (5630)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/2c75009e-459d-4a11-898a-162325bd8dee)
+![Screenshot (5635)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/fd42dba2-f8ac-43cb-9cce-4294fdc00abb)
+![Screenshot (5634)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/44e38ca0-d292-471d-baef-ad49c17b283e)
+
 
 ## Deployment
 
