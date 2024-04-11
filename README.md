@@ -32,6 +32,51 @@ Install react,typescript with npm
 ```http
   https://statuesque-platypus-e40dc1.netlify.app/
 ```
+
+## Features
+### Video Thumbnail Component:
+Displays a video thumbnail with a title, description, and creator's name.
+Allows users to click on the thumbnail to view the video details.
+Shows the creator's profile picture along with their name.
+Provides options to like, comment, share, and save the video.
+Utilizes a gradient background and hover effects for visual appeal.
+Implements a responsive design for various screen sizes.
+Includes a loader GIF for when the thumbnail is loading.
+
+### Video Details Component:
+Displays the selected video's title, description, and creator's name.
+Allows users to like the video and add comments.
+Uses local storage to store and retrieve likes and comments for each video.
+Provides a modal for users to input their name and comment.
+Utilizes colors, borders, and shadows for improved UI aesthetics.
+Implements a responsive design for different screen sizes.
+
+### Navbar Component:
+Displays a navigation bar with a logo and the name of the application.
+Utilizes a fixed position to keep the navbar static while scrolling.
+Uses colors, padding, and shadows for visual appeal.
+
+### Video Player Component:
+Renders a video player for playing the selected video.
+Utilizes the React Player library for video playback.
+Implements a loader GIF while the video is loading.
+Uses colors, borders, and shadows for styling.
+
+### Pagination Component:
+Displays pagination buttons for navigating between pages.
+Allows users to click on page numbers to navigate.
+Utilizes colors, borders, and hover effects for visual feedback.
+Implements a responsive design for different screen sizes.
+
+### Root Component:
+Renders the main application component within a root element.
+Applies a background color to the entire page.
+
+### UI Customization:
+Utilizes Tailwind CSS for styling components.
+Implements custom UI designs using colors, borders, shadows, and gradients.
+Ensures consistency and responsiveness across all components.
+
 ## Screentshots
 ![Screenshot (5624)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/9aa93acf-28d0-4f3f-b6a1-281fe016040f)
 ![Screenshot (5623)](https://github.com/AhamadShaikh/Ahamad-Shaikh-Hypergro/assets/115461870/9704ce38-e815-4bf4-9993-826bebe85e78)
