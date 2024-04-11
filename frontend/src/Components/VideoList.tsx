@@ -10,7 +10,7 @@ interface VideoListProps {
 
 const VideoList: React.FC<VideoListProps> = ({ videos, onVideoSelect }) => {
   return (
-    <div className="video-list grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-1 items-center justify-center">
+    <div className="video-list grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center justify-center">
       {videos.map(video => (
         <VideoThumbnail key={video.postId} post={video} onVideoSelect={onVideoSelect} />
       ))}

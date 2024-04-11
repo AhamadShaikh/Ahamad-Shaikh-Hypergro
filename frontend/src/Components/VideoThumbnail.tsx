@@ -15,7 +15,7 @@ interface VideoThumbnailProps {
 const VideoThumbnail: React.FC<VideoThumbnailProps> = ({ post, onVideoSelect }) => {
 
     const handleClick = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        // window.scrollTo({ top: 0, behavior: 'smooth' });
         onVideoSelect(post);
     };
     console.log(post);
@@ -29,7 +29,7 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({ post, onVideoSelect }) 
     }
 
     return (
-        <div className="video-thumbnail border border-blue-600 rounded-md overflow-hidden shadow-lg w-[380px] h-[550px] flex flex-col ml-2">
+        <div className="video-thumbnail border-2  border-blue-600 rounded-md overflow-hidden shadow-lg w-[380px] h-[550px] flex flex-col ml-2">
             <div className='flex'>
                 <img src={post.submission.thumbnail} alt={post.submission.title} className="rounded-md h-[500px] hover:cursor-pointer" onClick={handleClick}/>
                 <div className="flex justify-center items-center mt-4 flex-col gap-4 ">
